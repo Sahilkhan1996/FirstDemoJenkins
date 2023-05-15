@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoJenkinsApplication {
 
-    public static void main(String[] args) {
+    public static  main(String[] args) {
         SpringApplication.run(DemoJenkinsApplication.class, args);
         System.out.println("Second commit");
     }
