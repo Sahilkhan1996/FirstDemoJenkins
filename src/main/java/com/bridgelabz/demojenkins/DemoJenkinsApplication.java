@@ -8,6 +8,7 @@ public class DemoJenkinsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DemoJenkinsApplication.class, args);
+        System.out.println("Second commit");
     }
 
 }
